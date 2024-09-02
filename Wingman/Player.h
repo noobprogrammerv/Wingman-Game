@@ -10,8 +10,10 @@ using namespace sf;
 class Player {
 private:
 	Texture* texture;
-	Sprite shape;
+	Sprite sprite;
 	RectangleShape hitbox;
+
+	int controls[5];
 
 	int level;
 	int exp;
@@ -26,12 +28,16 @@ private:
 	int score;
 
 public:
-
-	Player();
+	Player(Texture* texture,
+		int UP = 22, int DOWN = 18,
+		int LEFT = 0, int RIGHT = 3, 
+		int SHOOT = 57);
 	virtual ~Player();
 
-	void Draw();
+	void Movement();
+
 	void Update();
+	void Draw(RenderTarget& target);
 
 };
 
