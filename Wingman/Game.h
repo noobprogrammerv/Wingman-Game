@@ -1,10 +1,22 @@
 #pragma once
-class Game {
 
+#include "Player.h"
+
+
+
+class Game {
+private:
+	RenderWindow* window;
 public:
-	Game();
+	Game(RenderWindow* window);
 	virtual ~Game();
 
+	//Accesors
+	inline RenderWindow& getWindow() { return *this->window; }
+
+	//Setters
+
+	//Functions
 	void Update();
 	void Draw();
 
