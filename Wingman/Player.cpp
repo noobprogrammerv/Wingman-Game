@@ -1,11 +1,11 @@
 #include "Player.h"
 
-enum controls { UP = 0, DOWN = 1,
-	LEFT, RIGHT, SHOOT
+unsigned Player::players = 0;
 
-};
 
-Player::Player(Texture* texture,
+enum controls { UP = 0, DOWN, LEFT, RIGHT, SHOOT};
+
+Player::Player(Texture* texture, Texture* bulletTexture,
 	int UP, int DOWN,
 	int LEFT, int RIGHT,
 	int SHOOT) :
@@ -15,13 +15,20 @@ Player::Player(Texture* texture,
 	damageMax(2), score(0)
 {
 	this->texture = texture;
+	this->bulletTexture = bulletTexture;
 	this->sprite.setTexture(*this->texture);
+
+	this->sprite.setScale(0.12f, 0.12f);
 
 	this->controls[controls::UP] = UP;
 	this->controls[controls::DOWN] = DOWN;
 	this->controls[controls::LEFT] = LEFT;
 	this->controls[controls::RIGHT] = RIGHT;
 	this->controls[controls::SHOOT] = SHOOT;
+
+	this->playerNr = Player::players;
+	Player::players++;
+	
 }
 
 Player::~Player() {
@@ -30,26 +37,35 @@ Player::~Player() {
 
 void Player::Movement() {
 	if (Keyboard::isKeyPressed(Keyboard::Key(this->controls[controls::UP]))) {
-		std::cout << "A" << '\n';
+		this->sprite.move(0.f, -10.f);
 	}
 	if (Keyboard::isKeyPressed(Keyboard::Key(this->controls[controls::DOWN]))) {
-		std::cout << "S" << '\n';
+		this->sprite.move(0.f, 10.f);
 	}
 	if (Keyboard::isKeyPressed(Keyboard::Key(this->controls[controls::LEFT]))) {
-		std::cout << "A" << '\n';
+		this->sprite.move(-10.f, 0.f);
 	}
 	if (Keyboard::isKeyPressed(Keyboard::Key(this->controls[controls::RIGHT]))) {
-		std::cout << "D" << '\n';
+		this->sprite.move(10.f, 0.f);
 	}
 	if (Keyboard::isKeyPressed(Keyboard::Key(this->controls[controls::SHOOT]))) {
-		std::cout << "SPACE" << '\n';
+		this->bullets.push_back(Bullet(bulletTexture, this->sprite.getPosition()));
 	}
+
 }
 
 void Player::Update() {
 	this->Movement();
+	for (size_t i = 0; i < this->bullets.size(); i++) {
+		this->bullets[i].Update();
+	}
+
 }
 
 void Player::Draw(RenderTarget& target) {
 	target.draw(this->sprite);
+	for (size_t i = 0; i < this->bullets.size(); i++) {
+		this->bullets[i].Draw(target);
+	}
+
 }

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|solutionrelative:Wingman\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|solutionrelative:Wingman\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|solutionrelative:Wingman\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|solutionrelative:Wingman\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|solutionrelative:Wingman\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|solutionrelative:Wingman\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E478E08A-8762-4AA5-9D55-D5B2AD5CDD80}|Wingman\\Wingman.vcxproj|C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,53 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\main.cpp",
               "RelativeDocumentMoniker": "Wingman\\main.cpp",
               "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\main.cpp",
               "RelativeToolTip": "Wingman\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T11:36:48.623Z"
+              "WhenOpened": "2024-09-02T11:36:48.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.cpp",
+              "RelativeDocumentMoniker": "Wingman\\Game.cpp",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.cpp",
+              "RelativeToolTip": "Wingman\\Game.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-02T11:51:40.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.cpp",
               "RelativeDocumentMoniker": "Wingman\\Player.cpp",
               "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.cpp",
               "RelativeToolTip": "Wingman\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-02T12:17:37.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.h",
-              "RelativeDocumentMoniker": "Wingman\\Player.h",
-              "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.h",
-              "RelativeToolTip": "Wingman\\Player.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T12:16:43.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.cpp",
-              "RelativeDocumentMoniker": "Wingman\\Game.cpp",
-              "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.cpp",
-              "RelativeToolTip": "Wingman\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Title": "Bullet.cpp",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Bullet.cpp",
+              "RelativeDocumentMoniker": "Wingman\\Bullet.cpp",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Bullet.cpp",
+              "RelativeToolTip": "Wingman\\Bullet.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-02T11:51:40.767Z",
+              "WhenOpened": "2024-09-02T15:33:20.983Z",
               "EditorCaption": ""
             },
             {
@@ -99,9 +108,36 @@
               "RelativeDocumentMoniker": "Wingman\\Game.h",
               "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Game.h",
               "RelativeToolTip": "Wingman\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-02T11:50:46.95Z"
+              "WhenOpened": "2024-09-02T11:50:46.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.h",
+              "RelativeDocumentMoniker": "Wingman\\Player.h",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Player.h",
+              "RelativeToolTip": "Wingman\\Player.h",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-02T12:16:43.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Bullet.h",
+              "RelativeDocumentMoniker": "Wingman\\Bullet.h",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\SFML\\Wingman\\Wingman\\Bullet.h",
+              "RelativeToolTip": "Wingman\\Bullet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-02T15:32:13.312Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,7 +1,4 @@
-﻿  Game.cpp
-  Player.cpp
-  main.cpp
-  Generating Code...
+﻿  Bullet.cpp
   Wingman.vcxproj -> C:\Users\Alex\source\repos\SFML\Wingman\Debug\Wingman.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

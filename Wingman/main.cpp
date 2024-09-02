@@ -3,7 +3,7 @@
 
 int main() {
 
-	RenderWindow window(VideoMode(800, 600), "Wingman Game", Style::Default);
+	RenderWindow window(VideoMode(1280, 720), "Wingman Game", Style::Default);
 	
 
 	Game game(&window);
